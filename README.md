@@ -2,12 +2,12 @@ This is a template. For "how to make a linter", please check [the HOWTO](HOWTO.m
 
 -----------------------------------------------------------------
 
-SublimeLinter-xvhdl
+sublime-linter-xvhdl
 ================================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-xvhdl.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-xvhdl)
+[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-xvhdl2008.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-xvhdl2008)
 
-This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) provides an interface to [xvhdl](__linter_homepage__). It will be used with files that have the VHDL syntax.
+This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) provides an interface to [xvhdl](https://www.xilinx.com/products/design-tools/vivado.html). It will be used with files that have the VHDL syntax.
 
 ## Installation
 SublimeLinter must be installed in order to use this plugin. 
