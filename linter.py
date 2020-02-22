@@ -2,9 +2,9 @@ from SublimeLinter.lint import Linter  # or NodeLinter, PythonLinter, ComposerLi
 
 
 class __class__(Linter):
-    cmd = '__cmd__'
-    regex = r''
+    cmd = 'xvhdl @'
+    regex = r'^(?P<error>ERROR): \[.*?(?P<code>[0-9-]+)\]\s(?P<message>.*)\s\[(?P<path>.*):(?P<line>\d+).*$'
     multiline = False
     defaults = {
-        'selector': 'source.python'
+        'selector': 'source.vhdl'
     }
